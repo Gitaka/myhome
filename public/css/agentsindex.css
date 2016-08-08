@@ -1,0 +1,202 @@
+body{
+	width:100%;
+
+}
+#container{
+	margin:0%;
+	padding:0%;
+}
+header{
+	width:100%;
+   background-color:#336666;
+   border-bottom:3px solid #000;
+}
+#page-title{
+	font-weight:bold;
+	font-size:250%;
+	text-transform: uppercase;
+	color:#fff
+}
+nav{
+	margin-top:2%;
+
+}
+
+#nav > ul > li > a {
+	color: #fff;
+	font-size:120%;
+	font-weight: normal;
+}
+#nav ul li.active a{
+  background:url(../images/icons/nav-bg-icon.png) no-repeat 50% 102% #363638;
+  margin-right:2%;
+  color:#fff;
+}
+#nav-style>li>a:hover{
+	color: #fff;
+	
+	background:url(../images/icons/nav-bg-icon.png) no-repeat 50% 102% #363638;
+}
+#menu-header{
+	color: #336666;
+	padding-left:2%;
+    
+}
+section{
+	background-color:#fff;
+}
+#vertical-nav{
+	background-color:#fff;
+	padding-top:2%;
+	border-right:1px solid #d8d8d8;
+}
+.vertical-active{
+	  background:#000;
+
+}
+#profile-pic{
+	color:#000;
+}
+#menu{
+	margin-top:4%;
+	padding-top:5%; 
+}
+#menu ul{
+  padding:0px;
+}
+#menu > ul >li > a{
+	font-size:130%;
+	color:#336666;
+}
+#menu > ul >li{
+	padding-top:8px;
+	height:50px;
+	list-style:none;
+	padding-left:5%;
+    
+}
+#menu > ul >li:hover {
+   background: #202020;
+   color:#fff;
+
+}
+#menu > ul >li > a:hover{
+	text-decoration: none;
+	color:#336666;
+}
+#content{
+
+	font-size:150%;
+}
+#profile-info{
+	margin-top:3%;
+}
+
+#left-aside{
+	background-color:#fff;
+
+}
+#account-profile{
+
+	padding-left:25%;
+	padding-top:10%;
+	padding-bottom:5%;
+	border-top: 4px solid #336666;
+	border-left:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	border-right:1px solid #d8d8d8;
+	border-radius:5px;
+}
+#circle{
+	border-radius:50px;
+	width:100px;
+	height:100px;
+	border:3px solid #336666;
+}
+#account-about{
+	margin-top:5%;
+	border-top: 4px solid #336666;
+	border-left:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	border-right:1px solid #d8d8d8;
+	border-radius:5px;
+}
+#account-about-header{
+	border-bottom: 1px solid #f8f8f8;
+	padding-left:5%;
+}
+#account-about-status{
+	border-bottom:1px solid #f8f8f8;
+	padding-left:5%;
+	padding-top:10%;
+	padding-bottom:5%;
+	font-size:80%;
+	color:#909090;
+}
+#account-about-status p{
+	font-weight: normal;
+	font-size:80%;
+}
+#label-style{
+	font-size:130%;
+	font-weight:normal;
+	color:#336666;
+}
+#account-about-location{
+	padding-left:5%;
+	padding-bottom:5%;
+	border-bottom:1px solid #f8f8f8;
+}
+#account-about-location label{
+	font-weight: normal;
+	font-size:80%;
+}
+#user-priviledges{
+	background-color:#fff;
+	border-top: 4px solid #336666;
+	border-left:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	border-right:1px solid #d8d8d8;
+	border-radius:5px;
+
+}
+#user-subscription-header{
+    padding-left:5%;
+	padding-top:3%;
+	padding-bottom:1%;
+	border-bottom:1px solid #f8f8f8;
+}
+#user-subscription-body{
+
+	padding-left:5%;
+	padding-top:3%;
+	padding-bottom:1%;
+}
+#user-subscription-body a{
+	color:#fff;
+}
+#user-subscription-body a:hover{
+	text-decoration: none;
+}
+#user-subscription-footer{
+	padding-top:5%;
+	margin-top:4%;
+	border-top:1px solid #f8f8f8;
+	padding-left:5%;
+	padding-right:5%;
+}
+#table-header{
+	font-size:120%;
+	color:#fff;
+	background:#336666;
+}
+#table-style{
+	font-size:80%;
+}
+#user-edit-profile{
+	margin-top:12.5%;
+    margin-bottom:5%;
+	padding-top:5%;
+	padding-left:5%;
+	border-top:1px solid #f8f8f8;
+}

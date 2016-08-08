@@ -1,0 +1,94 @@
+body{
+	margin:0;padding:0;
+}
+#pics{
+	width:90%;
+	height:90%;
+	background-color:blue;
+}
+#thumbImage{
+	width:20%;
+	height:90%;
+	background-color:red;
+	float:left;
+	margin-left:10%
+}
+#mainImage{
+	width:65%;
+	height:90%;
+	background-color:green;
+	float:right;
+}
+#mainimg{
+	width:90%;
+	height:80%;
+	padding-left:5%;
+	padding-top:10%;
+}
+#propertyImages{
+	list-style-type: none;
+	padding-left:0px;
+}
+#propertyImages li{
+	/*display:inline-block;*/
+	margin-top:0.5%;
+	margin-bottom:1%;
+
+}
+#propertyImages li img{
+	width:160px;
+	height:90px;
+}
+#propertyImages li img:hover{
+	cursor:pointer;
+}
+#overlay:hover{
+	cursor:pointer;
+}
+#overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:black;
+	opacity:0.7;
+	display:none;
+}
+#frame{
+	position:fixed;
+	background-color:#d8d8d8;
+	width:50%;
+	height:70%;
+	margin-left:20%;
+	display:none;
+	margin-top:5%;
+}
+#main{
+	width:90%;
+	height:90%;
+	margin-left:5%;
+	margin-top:3%;
+}
+#main:hover{
+	cursor:pointer;
+}
+#frame-table{
+	position:absolute;
+	width:90%;
+	height:90%;
+
+}
+
+#right{
+ 
+    float:right;
+    padding-left:73%;
+}
+#left{
+	float:left;
+	  padding-left:7%;
+}
+#right,#left{
+	position:relative;
+	top:150px;
+}
+

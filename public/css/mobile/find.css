@@ -1,0 +1,122 @@
+
+@media all and (max-width:450px){
+	body{
+	
+		background:#f1f0ee;
+		width:100%;
+		height:1000px;
+	}
+    #wrap{
+    	width:100%
+    }
+	.header{
+		width:100%;
+		min-height:100%;
+		background-color:blue;
+	}
+	.header-top{
+		width:100%;
+		height:50%;
+		
+	}
+	.logo{
+		width:100%;
+		height:100%;
+		
+		
+	}
+	.logo-res{
+		width:100%;
+		height:100%;
+	}
+
+	.top-nav{
+		width:100%;
+		background-color:#fff;
+        border-bottom:2px solid #026660;
+	}
+	.top-nav-left{
+		width:100%;
+	}
+	 .nav-btn{
+  	  display:block;
+  	  background-color:#026660;
+   	  color:#fff;
+   	  font-size:30px;
+   	  text-align:center;
+   	  cursor:pointer;
+  }
+	 .nav-btn:before{
+ 	   content:"Menu";
+     }
+     .top-nav-left > .nav-menu{
+	   width:100%;
+	   display:none;
+	   background-color:#026660;
+	   
+      }
+      .top-nav-left > .nav-menu > li{
+          padding:0px;
+          margin:0px;
+          display:block;
+          border-bottom:1px solid #d8d8d8;
+       }
+       .nav-menu > li >a{
+       	color:#fff;
+       	font-size:120%;
+       	text-decoration: none;
+       }
+      #container{
+      	width:100%;
+      	height:60%;
+      }
+     #section{
+      width:100%;
+      height:90%;
+      padding-left:5%;
+      padding-top:10%;
+      padding-right:5%;
+     }
+      
+     #footer{
+			width:100%;
+			height:30%;
+			background-color:#323A45;
+		    clear:both;
+       }
+     .footer-top-grid{
+			width:100%;
+			height:85%;
+		}
+		.footer-top-grid-header{
+			width:100%;
+			height:20%;
+			border-bottom:1px solid #fff;
+			padding-left:5%;
+			padding-top:1%;
+		    color:#fff;
+		    font-family:helvetica;
+		}
+		.footer-top-grid-body{
+			width:100%;
+			height:80%;
+			color:#fff;
+			padding-left:5%;
+		  }
+		 .footer-bottom-grid{
+		 	width:100%;
+		 	height:15%;
+		 	background-color:#202020;
+		 }
+		 .footer-bottom-grid-copywrite{
+			margin-top:1%;
+			padding-left:1%;
+			float:left;
+			color:#fff;
+			font-family:helvetica;
+			font-size:100%;
+			font-weight:normal;
+          }
+
+
+}

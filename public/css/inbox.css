@@ -1,0 +1,190 @@
+body{
+	width:100%;
+
+}
+#container{
+	margin:0%;
+	padding:0%;
+}
+header{
+   background-color:#336666;
+   border-bottom:3px solid #000;
+}
+#page-title{
+	font-weight:bold;
+	font-size:250%;
+	text-transform: uppercase;
+	color:#fff
+}
+nav{
+	margin-top:2%;
+
+}
+
+#nav > ul > li > a {
+	color: #fff;
+	font-size:150%;
+	font-weight: normal;
+	font-family: 	Courier New;
+}
+#nav ul li.active a{
+  background:url(../images/icons/nav-bg-icon.png) no-repeat 50% 102% #363638;
+  margin-right:2%;
+  color:#fff;
+}
+#nav-style>li>a:hover{
+	color: #fff;
+	
+	background:url(../images/icons/nav-bg-icon.png) no-repeat 50% 102% #363638;
+}
+#menu-header{
+	color: #336666;
+	padding-left:2%;
+    
+}
+section{
+	background-color:#fff;
+}
+#vertical-nav{
+	background-color:#fff;
+	padding-top:2%;
+	border-right:1px solid #d8d8d8;
+}
+.vertical-active{
+	  background:#000;
+
+}
+#profile-pic{
+	color:#000;
+}
+#menu{
+	margin-top:4%;
+	padding-top:5%; 
+}
+#menu ul{
+  padding:0px;
+}
+#menu > ul >li > a{
+	font-size:130%;
+	color:#336666;
+	
+}
+#menu > ul >li{
+	padding-top:8px;
+	height:50px;
+	list-style:none;
+	padding-left:5%;
+    
+}
+#menu > ul >li:hover {
+   background: #202020;
+   color:#fff;
+
+}
+#menu > ul >li > a:hover{
+	text-decoration: none;
+	color:#336666;
+}
+#content{
+
+	font-size:150%;
+}
+#profile-info{
+	margin-top:3%;
+}
+/*_____END OF AGENT-INDEX _______*/
+#inbox{
+
+}
+#inbox-header{
+   color:#336666;
+    padding-top:1%;
+    padding-bottom:1%;
+
+}
+#message-body{
+ 
+  padding-top:1%;
+  padding-bottom:1%;
+  border-top:1px solid #d8d8d8;
+border-bottom:1px solid #d8d8d8;
+
+}
+
+#inbox-sender{
+	font-weight:normal;
+}
+#inbox-subject{
+	font-weight:normal;
+	font-size:90%;
+}
+#inbox-date{
+	font-size:70%;
+	font-weight:normal;
+	color:#336666;
+}
+#inbox-text{
+	font-weight:-normal;
+}
+#inbox-text a{
+	font-weight:normal;
+	font-size:70%;
+
+}
+#inbox-text a:hover{
+	text-decoration:none;
+}
+#pagination{
+	margin-top:1%;
+	margin-bottom:5%;
+}
+#inbox-from{
+	border-bottom:1px solid #d8d8d8;
+	margin-top:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-size:100%;
+	color:#336666;
+
+}
+#inbox-label-style{
+	font-weight:normal;
+	font-size:70%;
+	 color:#b8b8b8;
+}
+#inbox-message-subject{
+	padding-top:2%;
+	color:#336666;
+	padding-bottom:1%;
+
+}
+#inbox-message-body{
+  border:1px solid #d8d8d8;
+  border-radius:1%;
+  margin-right:25%;
+  padding-top:2%;
+  padding-right:1%;
+  padding-left:5%;
+  padding-bottom:5%;
+  font-size:80%;
+  margin-bottom:5%;
+
+}
+/*_____END OF INBOX _______*/
+
+/******+++Contact agent styling+++******/
+#agent-details{
+	color:#336666;
+	font-size:130%;
+}
+#agent-details-style{
+	font-size:90%;
+	font-weight:normal;
+	color: #b8b8b8;
+}
+#contact-agent{
+	margin-top:5%;
+	margin-bottom:10%;
+	padding-left:5%;
+	padding-right:30%;
+}

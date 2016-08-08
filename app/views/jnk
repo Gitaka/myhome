@@ -1,0 +1,18 @@
+        /*function getBaseUrl(){
+               var protocol = window.location.protocol;
+               host =  window.location.host;
+               pathname = window.location.pathname;
+
+              var BASE_URL = protocol + "//" +host + "/";
+              return BASE_URL;
+            }
+          var BASE_URL = getBaseUrl();*/
+            /*$.ajax({
+                  type:"POST",
+                  url:BASE_URL + 'user/savedProperties',
+                    data:({id:buyId}),
+                  success:function(data){
+                        $('#saved').text("Saved");
+                        alert(data);
+                      }
+              });*/
